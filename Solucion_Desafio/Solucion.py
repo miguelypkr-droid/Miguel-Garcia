@@ -4,8 +4,9 @@ calificacion2 = int(input("¡Ingrese su segunda nota!"))
 calificacion3 = int(input("¡Ingrese su tercera nota!"))
 calificacion4 = int(input("¡Ingrese su cuarta nota!"))
 calificacion5 = int(input("¡Ingrese su quinta nota!"))
+ 
+promedio = (calificacion1 + calificacion2 + calificacion3 + calificacion4 + calificacion5) / 5
 
-promedio = (calificacion1 + calificacion2 + calificacion3 + calificacion4 + calificacion5)
-
-if promedio >= 1: 
-    print("ganaste")
+if promedio >= 60: 
+    print("Aprobado")
+elif 40 <= promedio <= 59:
