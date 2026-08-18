@@ -10,3 +10,8 @@ promedio = (calificacion1 + calificacion2 + calificacion3 + calificacion4 + cali
 if promedio >= 60: 
     print("Aprobado")
 elif 40 <= promedio <= 59:
+    print("En recuperacion")
+elif promedio < 40:
+    print("Reprobado")
+else:
+    print("Error, nota invalida")
